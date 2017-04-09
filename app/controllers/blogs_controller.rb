@@ -54,8 +54,7 @@ class BlogsController < ApplicationController
   #end
 	
 
-	def arvind
-	end
+	
     private
 	  def blog_params
 	    params.require(:blog).permit(:title, :text)
